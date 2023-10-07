@@ -37,8 +37,8 @@
         =============================================== */
 
     $(window).load(function() {
-        $("#preloader").on(1500).fadeOut();
-        $(".preloader").on(1600).fadeOut("slow");
+        $("#preloader").on(100).fadeOut();
+        $(".preloader").on(100).fadeOut("slow");
     });
 
     /* ==============================================
@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         var preloader = document.getElementById("preloader");
         preloader.style.display = "none"; // Hide the preloader after 2 seconds
-    }, 18000); // 2000 milliseconds = 2 seconds
+    }, 2000); // 2000 milliseconds = 2 seconds
 });
 
 
